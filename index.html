@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Farhan Shahriar Alvi - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="header-title">
+            <h1>Farhan Shahriar Alvi</h1>
+            <p class="subtitle">Software Engineer</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#thesis">Thesis</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skill">Skill</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Motivated and adaptable individual with a strong passion for learning and personal growth. I thrive in environments that challenge me to think critically and solve problems creatively. My academic background has equipped me with a solid foundation in solving problems, working with others, and always bring a positive attitude to new challenges, and I am eager to apply this knowledge in real-world situations. I am a quick learner, a team player, and always strive to approach tasks with enthusiasm and a positive attitude. I am excited to contribute to dynamic teams while continuing to develop my skills.</p>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <p><strong>Bachalor of Science</strong> in Computer Science and Engineering</p>
+        <p><strong>United International University</strong></p>
+        <p>Cgpa: 3.29</p>
+    </section>
+
+    
+
+    <section id="thesis">
+        <h2>Thesis</h2>
+        <p>This was my Final Year Design Project(FYDP). Developed an innovative healthcare management system for Bangladesh, integrating National Identification-based card chips to provide instant access to comprehensive patient data. The system enhances administrative efficiency, ensures continuity of care, and reduces redundant medical procedures through seamless data interoperability across healthcare facilities. It also features a predictive disease detection model using Decision Trees and Naïve Bayes Classifier algorithms, significantly improving the quality of healthcare delivery.</p>
+            <p>here is the link: <a href="https://ieeexplore.ieee.org/abstract/document/10441556">click here</a> </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        
+        <div class="project-container">
+            <div class="project">
+                <h3>Donation_Management</h3>
+                <p> This project involves using technologies like HTML, CSS and PHP</p><br>
+                <a href="#" class="btn" onclick="showModal(1)">View Details</a>
+            </div>
+        </div>
+        
+        <div class="project-container">
+            <div class="project">
+                <h3>Diabetes-Prediction-System</h3>
+                <p>This project was built using Django FrameWork </p><br>
+                <a href="#" class="btn" onclick="showModal(2)">View Details</a>
+            </div>
+        </div>
+        
+        <div class="project-container">
+            <div class="project">
+                <h3>PetOrg</h3>
+                <p>This project was built using HTML, CSS, Javascript and PHP</p><br>
+                <a href="#" class="btn" onclick="showModal(3)">View Details</a>
+            </div>
+        </div>
+        <div class="project-container">
+            <div class="project">
+                <h3>Programming-Contest</h3>
+                <p>This project was built using HTML, CSS, Javascript, Bootstrap, PHP and MySQL Database</p><br>
+                <a href="#" class="btn" onclick="showModal(4)">View Details</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="skill">
+        <h2>Skill</h2>
+        <p><strong>Language    :</strong> C, C++, Java, Python, PHP, HTML, Javascript</p>
+        <p><strong>FrameWork    :</strong> React, Django</p>
+        <p><strong>Database    :</strong> MySQL,Apache</p>
+        <p><strong>Opereting System    :</strong> Windows,Linux</p>
+
+        
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <div class="contact-details">
+            <p><strong>Email:</strong> farhan.alvi.0310@gmail.com</p>
+            <p><strong>Phone:</strong> +8801977980310</p>
+            <p><strong>Location:</strong> Agargaon, Dhaka</p>
+            <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/farhan-shahriar-alvi-7b791122b" target="_blank">linkedin.com/in/farhanshahriaralvi</a></p>
+            <p><strong>GitHub:</strong> <a href="https://github.com/FarhanShahriaralvi" target="_blank">github.com/johndoe</a></p>
+        </div>
+    </section>
+
+    <!-- Modal for Project Details -->
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal()">&times;</span>
+            <h3 id="modal-title"></h3>
+            <p id="modal-description"></p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Farhan Alvi. All rights reserved.</p>
+    </footer>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+
+</body>
+</html>
